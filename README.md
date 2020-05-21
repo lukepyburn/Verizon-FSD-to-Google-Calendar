@@ -3,7 +3,7 @@
 </p>
 
 # Verizon FSD to Google Calendar v0.1.8
-Verizon FSD to Google Calendar is a Chrome extension that is designed to convert new service orders entered in Verizon's Field Service Dispatch platform to events in Google Calendar and format them accordingly, removing the need for double entry.
+Verizon FSD to Google Calendar is a Chrome extension that is designed to convert new work orders entered into Verizon's Field Service Dispatch platform to events in Google Calendar and format them accordingly, removing the need for double entry.
 ## Prerequisites
 [Tampermonkey 4.10+](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
