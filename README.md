@@ -11,7 +11,7 @@ Verizon FSD to Google Calendar is a Chrome extension that is designed to convert
 
 Access to Verizon Field Service Dispatch via [Verizon Connect Reveal](https://www.verizonconnect.com/home/reveal/)
 
-A Google account
+A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp)
 
 ## Installation
 
