@@ -1,0 +1,37 @@
+<!--Copyright 2020 Luke Pyburn-->
+<!--HTML formatting for Almeda Scheduler Options Menu-->
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <div id="optionsDiv">
+    </div>
+    <div>
+       <p>Verizon FSD to Google Calendar Options</p>
+    </div>
+    <div id="eventTitleDiv">
+    <p>Select the FSD details that will appear in Google Calendar Event Title:</p>
+        <input type="checkbox" name="date" value="currentDate">Current Date<br>
+        <input type="checkbox" name="name" value="customerName" checked>Customer Name<br>
+        <input type="checkbox" name="phone" value="phoneNumber">Phone Number<br>
+        <input type="checkbox" name="job" value="jobToDo">Job To Do<br>
+    </div>
+    <div id="dateAndTimeDiv">
+    <p>Select date and time options:</p>
+      <input type="radio" name="current" value="currentDateAndTime" checked>Set as current date and time.<br>
+      <input type="radio" name="fsd" value="fsdDate">Set as date and time from the FSD entry.<br>
+      <input type="radio" name="allday" value="allDay">Set as an all-day event on the current date.<br>
+      <input type="radio" name="fsdallday" value="fsdAllDay">Set as an all-day event on the date from the FSD entry.<br>
+      <p>
+      **Default event length will be 1 hour unless one of the all-day options has been selected.**
+      </p>
+    </div>
+    <div id="descriptionDiv">
+    <p>Copy job description to clipboard:</p>
+      <input type="radio" name=copy value="copyTrue" checked>Auto copy job description.<br>
+      <input type="radio" name=blank value="copyFalse">Do not auto copy job description.<br>
+    </div>
+  </body>
+  <script src="options.js"></script>
+</html>

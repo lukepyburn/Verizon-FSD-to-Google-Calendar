@@ -1,0 +1,9 @@
+   "content_scripts": [
+   {
+     "matches": ["https://reveal.us.fleetmatics.com/fsd/*", "https://reveal.fleetmatics.com/fsd/*"],
+     "css": ["buttonStyle.css"],
+     "js": ["jquery-3.4.1.min.js", "button.js"]
+   }
+ ],
+
+ "web_accessible_resources": ["button.js","buttonStyle.css"],

@@ -1,0 +1,29 @@
+// CSS Formatting for FSD transfer button and container
+
+#myContainer {
+    position: absolute;
+    top: 15px;
+    right: 200px;
+    font-size: 20px;
+    background: #E30000;
+    border: 2px outset black;
+    margin: 0px;
+    opacity: 0.85;
+    z-index: 1100;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+
+
+#myButton{
+    cursor: pointer;
+    border-radius: 4px;
+    align-content: center;
+}
+
+#myContainer p {
+    color: red;
+    background: white;
+    align-content: center;
+    }

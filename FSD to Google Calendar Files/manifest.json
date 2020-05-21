@@ -1,0 +1,32 @@
+{
+  "name": "FSD to Google Calendar",
+  "version": "0.1.8",
+  "description": "FSD to Google Calendar is designed to convert Verizon Field Service Dispatch work orders to entries in Google Calendar.",
+  "author": "Luke Pyburn",
+  "permissions": ["activeTab", "declarativeContent", "storage","contextMenus", "clipboardRead", "clipboardWrite","webNavigation", "https://reveal.us.fleetmatics.com/fsd/technicians", "https://reveal.fleetmatics.com/fsd/technicians", "https://calendar.google.com/"],
+  "options_page": "options.html",
+  "icons": {
+    "128": "FSDtoGCAL128.png",
+    "16": "FSDtoGCAL16.png",
+    "48": "FSDtoGCAL48.png" },
+    
+  "background": {
+    "page": "background.html"
+  },
+
+  "browser_action": {
+   
+    "default_icon": {
+      "16": "FSDtoGCAL16.png",
+      "48": "FSDtoGCAL48.png",
+      "128": "FSDtoGCAL128.png"
+    }
+  },
+
+  
+  "manifest_version": 2,
+  
+  "key":"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApWmED+TUHEAs5zEX2CJmh4CtrcmY9dO5UKC3UWkAnMT5NyA3Ns1hopaYsniYpp3qtufSFFr7GB6z57TsIKxEoUnHQA6REX1QgkaFWOZyIo4NtjEpdjr/gTDz5lG2F4TFEohZoCq1FPGR+5NQACLTy5eeWEAarE7mI5usHjiMAsyIlRotIRj2nxot0hy/cs/hnoTJamKeWP8oCyq0kmul7JjBGC8LKow5IXL0tkPawwgitpAKkEZ8ywWxGrv4AHpf+9xZzKtLhHAvKWb22TSgz1scvLsKQDLlVFwAYG3jsa5u0OL668iHno1ssFo9IEF+ektPBt7hvVPKiYAViRAf/QIDAQAB",
+  
+   "update_url": "https://clients2.google.com/service/update2/crx"
+}
