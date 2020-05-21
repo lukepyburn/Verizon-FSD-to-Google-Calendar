@@ -9,6 +9,10 @@ Verizon FSD to Google Calendar is a Chrome extension that is designed to convert
 
 [FSD Variable Storage](https://gist.github.com/lukepyburn/f038a1910b5552292472023db09151a8), [FSD ID Generator](https://gist.github.com/lukepyburn/9dcb01ce6f07b00988b56846935f0248), and [FSD Button](https://gist.github.com/lukepyburn/929a9c991afc3277697585ec764c0ec4) userscripts
 
+Access to Verizon Field Service Dispatch via [Verizon Connect Reveal](https://www.verizonconnect.com/home/reveal/)
+
+A Google account
+
 ## Installation
 
 1. Clone this repo using:
