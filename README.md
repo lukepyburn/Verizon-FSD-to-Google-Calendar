@@ -32,7 +32,7 @@ As soon as you have saved a new work order in FSD, it’s time to transfer it ov
 
 Once you have refreshed the webpage, verify that the “Select Job Details” button can be seen on the top right-hand side of your screen. It looks like this:
 
-![Documentation1](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/Images/Documentation 1.png)
+![Documentation1](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%201.png)
 
 If you can see this button, that means the extension is functioning correctly. If you don’t see it, keep refreshing the page until it appears.
 
