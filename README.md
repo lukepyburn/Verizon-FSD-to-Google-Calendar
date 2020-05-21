@@ -102,9 +102,9 @@ If you make a mistake at any point in this process, all you need to do is refres
 
 1. Options Menu
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, the extension only has the ability to format Google Calendar entires in the way seen in the uasge images above, I.E. Date, Client Name, and Phone Number in the Title Field. Eventually, I plan on adding an options menu where the user could configure the Google Calendar event differently, depending on their needs.
+Currently, the extension only has the ability to format Google Calendar entires in the way seen in the uasge images above, I.E. Date, Client Name, and Phone Number in the Title Field. Eventually, I plan on adding an options menu where the user could configure the Google Calendar event differently, depending on their needs.
 
 2. Automatic Update
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add functionality for any changes made in either entry to be reflected in both.
+Add functionality for any changes made in either entry to be reflected in both.
 
