@@ -98,5 +98,13 @@ If you make a mistake at any point in this process, all you need to do is refres
 
 **Disabling Chrome's Developer Mode will cause this extension to be unloaded. If Chrome detects that it is in Developer Mode upon a broswer restart, the user will be given the option to turn Developer Mode off. When this notification appears, close it. If Developer Mode is disabled by mistake and the Verizon FSD to Google Calendar extension is unloaded, repeat steps 2 and 3 of the installation process to reload the extension.**
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## To Do
+
+1. Options Menu
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Currently, the extension only has the ability to format Google Calendar entires in the way seen in the uasge images above, I.E. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Date, Client Name, and Phone Number in the Title Field. Eventually, I plan on adding an options menu where the user could &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;configure the Google Calendar event differently, depending on their needs.
+
+2. Automatic Update
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Add functionality for any changes made in either entry to be reflected in both.
+
