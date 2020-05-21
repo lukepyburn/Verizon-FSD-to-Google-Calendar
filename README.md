@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/FSD%20to%20Google%20Calendar%20Files/FSDtoGCAL%20Logo.png" width="350"/>
+</p>
+
 # Verizon-FSD-to-Google-Calendar
 Verizon FSD to Google Calendar is a Chrome extension that is designed to convert new service orders entered in Verizon's Field Service Dispatch platform to events in Google Calendar and format them accordingly, removing the need for double entry.
 ## Prerequisites
@@ -43,7 +47,9 @@ If you can see this button, that means the extension is functioning correctly. I
 Now you need to select the service order you want to transfer from the “Pending” panel on the left-hand side of the screen. If you just saved a new service order, it will be the one at the very bottom.
 For example: Let’s assume this entry was just saved to FSD, and we need to transfer it to Google Calendar.
 
-![Documentation2](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%202.png)
+<p align="center">
+  <img src="https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%202.png"/>
+</p>
 
 Click on the service order in the “Pending” panel, and it will open back up in a side panel to the right-hand side of the page that looks like this:
 
