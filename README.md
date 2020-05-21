@@ -22,7 +22,7 @@ $ git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or download it as a .zip file and extract
 
-2. Navigate to ```chrome://extensions``` and turn Developer Mode "on" in the top right corner.
+2. Within Chrome, navigate to ```chrome://extensions``` and turn Developer Mode "on" in the top right corner.
 
 3. Select the "Load unpacked" option in the top left corner, and navigate to the ```FSD to Google Calendar Files``` directory when prompted. Once there, click "Select Folder". This will add the extension to your browser.
 
