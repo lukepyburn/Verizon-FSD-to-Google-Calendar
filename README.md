@@ -41,11 +41,11 @@ If you can see this button, that means the extension is functioning correctly. I
 Now you need to select the service order you want to transfer from the “Pending” panel on the left-hand side of the screen. If you just saved a new service order, it will be the one at the very bottom.
 For example: Let’s assume this entry was just saved to FSD, and we need to transfer it to Google Calendar.
 
-![Documentation2](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Documentation%202.png)
+![Documentation2](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%202.png)
 
 Click on the service order in the “Pending” panel, and it will open back up in a side panel to the right-hand side of the page that looks like this:
 
-![Documentation3](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Documentation%203.png)
+![Documentation3](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%203.png)
 
 
 Once this panel is open, we’re ready to transfer.
@@ -54,7 +54,7 @@ Once this panel is open, we’re ready to transfer.
 
 Click the large red button at the top right-hand side of the screen that says “Select Job Details”. When you do, all of the text in the job’s panel on the right-hand side of the screen will be selected, highlighting it in blue, as shown below:
 
-![Documentation5](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Documentation%205.png)
+![Documentation5](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%205.png)
 
 Once the text is highlighted, you can move to the next step.
 
@@ -64,13 +64,13 @@ Right click anywhere inside the side panel with the selected text. **If you righ
 
 When you right click, a context menu will appear. Inside of that context menu, you will see an icon labeled **“FSD to Google Calendar”**. It will look like this:
 
-![Documentation6](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Documentation%206.png)
+![Documentation6](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%206.png)
 
 Click on it, and when you do, Google Calendar will open in a new tab.
 
 This new tab will open with the entire Google Calendar entry already filled out, with the exception of the event description, as shown below:
 
-![Documentation7](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Documentation%207.png)
+![Documentation7](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%207.png)
 
 **Step 6:**
 
@@ -80,7 +80,7 @@ Now, all we need is the description. The extension has automatically set your cu
 
 Verify that the information is correct, and hit Save at the top of the page.
 
-![Documentation8](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Documentation%208.png)
+![Documentation8](https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar/blob/master/Images/Documentation%208.png)
 
 If you make a mistake at any point in this process, all you need to do is refresh the page and start over.
 
