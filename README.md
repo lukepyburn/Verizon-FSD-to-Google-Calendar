@@ -15,9 +15,9 @@ A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&
 
 ## Installation
 
-1. Download this repo as a .zip file and extract
+1. Download this repo as a .zip file by clicking the "clone or download" button above and then selecting the "Download ZIP" option. Once downloaded, extract the contents by right clicking "Verizon-FSD-to-Google-Calendar-master.zip" and selecting the "Extract to Verizon-FSD-to-Google-Calendar-master/" action from the context menu.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Or clone this repo using:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>OR</ins> clone this repo using:
 
 ```bash
 git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
@@ -104,6 +104,8 @@ If you make a mistake at any point in this process, all you need to do is refres
 ## Important Addtional Information
 
 **Disabling Chrome's Developer Mode will cause this extension to be unloaded. If Chrome detects that it is in Developer Mode upon a broswer restart, the user will be given the option to turn Developer Mode off. When this notification appears, close it. If Developer Mode is disabled by mistake and the Verizon FSD to Google Calendar extension is unloaded, repeat steps 2 and 3 of the installation process to reload the extension.**
+
+**During the installation process, once you have extracted the contents of "Verizon-FSD-to-Google-Calendar-master.zip" and loaded it as an unpacked extension, do not move the "Verizon-FSD-to-Google-Calendar-master" folder. Chrome will not be able to load the extension if this folder is moved.**
 
 ## To Do
 
