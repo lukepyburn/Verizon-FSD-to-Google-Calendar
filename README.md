@@ -26,7 +26,7 @@ git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
 
 3. Select the "Load unpacked" option in the top left corner, and navigate to the ```FSD to Google Calendar Files``` directory when prompted. Once there, click "Select Folder". This will add the extension to your browser.
 
-4. Download the [FSD Variable Storage](https://gist.github.com/lukepyburn/f038a1910b5552292472023db09151a8), [FSD ID Generator](https://gist.github.com/lukepyburn/9dcb01ce6f07b00988b56846935f0248), and [FSD Button](https://gist.github.com/lukepyburn/929a9c991afc3277697585ec764c0ec4) userscripts, and install all three in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en). For information on how to install Tampermonkey userscripts, click [here](https://www.tampermonkey.net/faq.php#Q102).
+4. Download the [FSD Variable Storage](https://greasyfork.org/en/scripts/403898-fsd-variable-storage), [FSD ID Generator](https://greasyfork.org/en/scripts/403899-fsd-id-generator), and [FSD Button](https://greasyfork.org/en/scripts/403901-fsd-button) userscripts, and install all three in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en). For information on how to install Tampermonkey userscripts, click [here](https://www.tampermonkey.net/faq.php#Q102).
 
 ## Usage
 
