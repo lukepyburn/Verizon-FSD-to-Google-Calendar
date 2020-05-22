@@ -18,7 +18,7 @@ A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&
 1. Clone this repo using:
 
 ```bash
-$ git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
+git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or download it as a .zip file and extract
 
