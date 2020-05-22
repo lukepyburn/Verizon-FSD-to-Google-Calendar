@@ -15,12 +15,13 @@ A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&
 
 ## Installation
 
-1. Clone this repo using:
+1. Download this repo as a .zip file and extract
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Or clone this repo using:
 
 ```bash
 git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
 ```
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;or download it as a .zip file and extract
 
 2. Within Chrome, navigate to ```chrome://extensions``` and turn Developer Mode "on" in the top right corner.
 
