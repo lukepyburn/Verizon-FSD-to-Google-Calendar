@@ -36,7 +36,7 @@ Verizon's Field Service Dispatch platform is great for tracking time on a minute
 
 **Step 1:**
 
-As soon as you have saved a new work order in FSD, it’s time to transfer it over to Google Calendar. The first thing you always need to do is refresh the webpage. You can do this by clicking the “Refresh” button in your browser as shown below, or by using the keyboard shortcut ```CTRL+R```.
+As soon as you have saved a new work order in FSD, it’s time to transfer it over to Google Calendar. The first thing you always need to do is refresh the webpage. You can do this by clicking the “Refresh” button in your browser, or by using the keyboard shortcut ```CTRL+R```.
 
 **Step 2:**
 
