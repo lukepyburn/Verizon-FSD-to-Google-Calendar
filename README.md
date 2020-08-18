@@ -15,7 +15,7 @@ A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&
 
 ## Installation
 
-1. Download this repo as a ZIP file by clicking the "clone or download" button above and then selecting the "Download ZIP" option. Once downloaded, extract the contents by right clicking ```Verizon-FSD-to-Google-Calendar-master.zip``` and selecting the ```Extract to Verizon-FSD-to-Google-Calendar-master/``` action from the context menu.
+1. Download this repo as a ZIP file by clicking the green "Code" button above and then selecting the "Download ZIP" option. Once downloaded, extract the contents by right clicking ```Verizon-FSD-to-Google-Calendar-master.zip``` and selecting the ```Extract to Verizon-FSD-to-Google-Calendar-master/``` action from the context menu.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<ins>OR</ins> clone this repo using:
 
