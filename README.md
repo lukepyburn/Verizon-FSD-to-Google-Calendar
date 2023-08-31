@@ -3,7 +3,11 @@
 </p>
 
 # Verizon FSD to Google Calendar v0.1.8
-Verizon FSD to Google Calendar is a Chrome extension that is designed to convert new work orders entered into Verizon's Field Service Dispatch platform to events in Google Calendar and format them accordingly, removing the need for double entry.
+Verizon FSD to Google Calendar is an extension for Chrome/Opera/OperaGX that is designed to convert new jobs entered into Verizon Connect Reveal's Field Service Dispatch platform to Events in Google Calendar with one click. These Events can be formatted based on whatever criteria/data points you specify, including those that Field Service Dispatch does not track, such as billing information. This eliminates the need for double entry, gives the end user much more control over both the type, and the granularity of data visible for each individual job, and, ultimately, consolidates all data for a week's worth of jobs in such a way that it can: 1. Be viewed within a single screen, and 2. Be interpreted and applied to the service call process quickly, easily, and without the need for any clicking or page navigation. 
+
+## Before You Install
+**To be clear, this extension effectively hijacks Google Calendar's "quick add" function, turning Google Calendar (a scheduling app), into a data viewer, which is not something it was ever designed to be. If your business is already using Google Calendar as your default scheduling application, then this extension will require substantial legwork to get up and running, and probably isn't the solution you're looking for.**
+
 ## Prerequisites
 [Tampermonkey 4.10+](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en)
 
@@ -11,7 +15,7 @@ Verizon FSD to Google Calendar is a Chrome extension that is designed to convert
 
 Access to Verizon Field Service Dispatch via [Verizon Connect Reveal](https://www.verizonconnect.com/home/reveal/)
 
-A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp)
+A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&flowName=GlifWebSignIn&flowEntry=SignUp) (Chome users only)
 
 ## Installation
 
@@ -23,11 +27,11 @@ A [Google account](https://accounts.google.com/signup/v2/webcreateaccount?hl=en&
 git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
 ```
 
-2. Within Chrome, navigate to ```chrome://extensions``` and turn Developer Mode "on" in the top right corner.
+2. If you are a Chrome user, navigate to ```chrome://extensions``` and turn Developer Mode "on" in the top right corner. If you are an Opera/OperaGX user, navigate to ```opera://extensions``` and turn Developer Mode "on" in the top right corner.
 
 3. Select the "Load unpacked" option in the top left corner, then navigate to the ```FSD to Google Calendar Files``` folder and select it. It is located directly inside the ```Verizon-FSD-to-Google-Calendar-master/``` folder extracted from the ZIP file. Once selected, click "Select Folder" button. This will add the extension to your browser.
 
-4. Install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) Chrome extension.
+4. Install the [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) extension.
 
 5. Install the [FSD Variable Storage](https://greasyfork.org/en/scripts/403898-fsd-variable-storage), [FSD ID Generator](https://greasyfork.org/en/scripts/403899-fsd-id-generator), and [FSD Button](https://greasyfork.org/en/scripts/403901-fsd-button) userscripts in [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en). To install [Tampermonkey](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en) userscripts hosted on [Greasy Fork](https://greasyfork.org/en), follow the userscript links listed above and click "Install this script" on each of them. 
 
@@ -35,9 +39,9 @@ git clone https://github.com/lukepyburn/Verizon-FSD-to-Google-Calendar.git
 
 **Intro:** 
 
-Verizon's Field Service Dispatch platform is great for tracking time on a minute-to-minute basis, but the details it gives the end user the ability to see are limited. Many FSD users need to see broad, big-data details about a weeks’ worth of jobs at once, which is why the ability to transfer orders to Google Calendar is so beneficial. This extension will allow users to transfer any work orders saved in FSD to Google Calendar so they can leverage both systems without having to do any double entry.
+Verizon's Field Service Dispatch platform is great at what it was designed to do: Track the location and time of individual technicians/crews on a minute-to-minute basis, and use that information to assign them to jobs over the course of the work day. Because of it's intended usage, the details FSD gives the end user the ability to see are limited. This isn't so much a flaw with FSD as a platform as it is a consequence of what FSD was designed to do. That said, some users, like us, may have a company specific need to see broad, big-data details about a weeks’ worth of jobs at once, and interpret them quickly, which is why the ability to transfer orders to Google Calendar is so beneficial for us. This extension allows users to transfer any jobs to do saved in FSD to Google Calendar instantly. Here's how it works:
 
-**Step 1:**
+**Step 1:*
 
 As soon as you have saved a new work order in FSD, it’s time to transfer it over to Google Calendar. The first thing you always need to do is refresh the webpage. You can do this by clicking the “Refresh” button in your browser, or by using the keyboard shortcut ```CTRL+R```.
 
@@ -103,9 +107,9 @@ If you make a mistake at any point in this process, all you need to do is refres
 
 ## Important Addtional Information
 
-**Disabling Chrome's Developer Mode will cause this extension to be unloaded. If Chrome detects that it is in Developer Mode upon a broswer restart, the user will be given the option to turn Developer Mode off. When this notification appears, close it. If Developer Mode is disabled by mistake and the Verizon FSD to Google Calendar extension is unloaded, repeat steps 2 and 3 of the installation process to reload the extension.**
+**Disabling Developer Mode within your browser will cause this extension to be unloaded. (For Chome users) If Chrome detects that it is in Developer Mode upon a broswer restart, the user may be given the option to turn Developer Mode off. If this notification appears, close it. If Developer Mode is disabled by mistake and the Verizon FSD to Google Calendar extension is unloaded, repeat steps 2 and 3 of the installation process to reload the extension.**
 
-**During the installation process, once you have extracted the contents of ```Verizon-FSD-to-Google-Calendar-master.zip``` and loaded it as an unpacked extension, do not move the ```Verizon-FSD-to-Google-Calendar-master``` folder. Chrome will not be able to load the extension if this folder is moved.**
+**During the installation process, once you have extracted the contents of ```Verizon-FSD-to-Google-Calendar-master.zip``` and loaded it as an unpacked extension, do not move the ```Verizon-FSD-to-Google-Calendar-master``` folder. Your browser will not be able to load the extension if this folder is moved.**
 
 ## To Do
 
@@ -113,7 +117,7 @@ If you make a mistake at any point in this process, all you need to do is refres
 
 Currently, the extension only has the ability to format Google Calendar entires in the way seen in the uasge images above, I.E. Date, Client Name, and Phone Number in the "Event Title" field. Eventually, I plan on adding an options menu where the user could configure the Google Calendar event differently, depending on their needs.
 
-2. Automatic Update
+2. Automatic Update (via API)
 
 Add functionality for any changes made in either entry to be reflected in both.
 
